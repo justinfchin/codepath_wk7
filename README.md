@@ -3,8 +3,8 @@
 ## Exploits
 ### 1. XSS
 - Steps used to recreate:
-    -
---
+-sdfsdf
+    -dsfsd
 ### 2. 
 - 
 ### 3. 
