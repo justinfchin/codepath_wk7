@@ -1,12 +1,13 @@
 # CodePath Cybersecurity - Week7
 - Challenge: Discover and recreate basic exploits using WordPress
+- Note: Attacks are performed by admin (victim) who has been unknowingly social engineered and trusts the users (adversary) request. 
 - Affected Version: WP 4.2
 ## Exploits
 ### 1. XSS
 - Steps:
-  - lorem ipsum
+  - Upload User Comment Containing XSS Attack:
 - GIF Walkthrough:
-  - lorem ipsum
+  - ![alt text](https://github.com/justinfchin/https://github.com/justinfchin/codepath_wk7/blob/master/gifs/xss1.gif)
 ### 2. 
 - Steps:
   - lorem ipsum
