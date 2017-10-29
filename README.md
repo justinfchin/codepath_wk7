@@ -5,7 +5,9 @@
 ## Exploits
 ### 1. XSS
 - Steps:
-  - Upload User Comment Containing XSS Attack:
+  - Upload User Comment Containing XSS Attack
+    - POW<script>alert(1)</script>
+    - Note a real attack would replace alert(1)
 - GIF Walkthrough:
   - ![XSS1](/gifs/xss1.gif)
 ### 2. 
