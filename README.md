@@ -7,7 +7,7 @@
 - Steps:
   - Upload User Comment Containing XSS Attack:
 - GIF Walkthrough:
-![XSS1](https://github.com/justinfchin/codepath_wk7/tree/master/gifs/xss1.gif)
+![](https://github.com/justinfchin/codepath_wk7/tree/master/gifs/xss1.gif)
 ![](http://i.imgur.com/60bts.gif)
 ### 2. 
 - Steps:
