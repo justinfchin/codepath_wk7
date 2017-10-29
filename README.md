@@ -6,7 +6,9 @@
 ### 1. XSS
 - Steps:
   - Upload User Comment Containing XSS Attack
-    - ```javascript POW<script>alert(1)</script> ```
+    - ```javascript 
+POW<script>alert(1)</script> 
+```
     - Note a real attack would replace alert(1)
 - GIF Walkthrough:
   - ![XSS1](/gifs/xss1.gif)
