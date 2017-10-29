@@ -7,7 +7,7 @@
 - Steps:
   - Upload User Comment Containing XSS Attack:
 - GIF Walkthrough:
-  -![Alt Text](https://github.com/justinfchin/codepath_wk7/tree/master/gifs/xss1.gif)
+  -![XSS1](https://github.com/justinfchin/codepath_wk7/tree/master/gifs/xss1.gif)
 ### 2. 
 - Steps:
   - lorem ipsum
