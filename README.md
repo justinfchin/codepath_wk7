@@ -7,7 +7,7 @@
 - Steps:
   - Upload User Comment Containing XSS Attack:
 - GIF Walkthrough:
-![XSS1](/gifs/xss1.gif){:height="250px"}
+  - ![XSS1](/gifs/xss1.gif)
 ### 2. 
 - Steps:
   - lorem ipsum
