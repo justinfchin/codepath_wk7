@@ -16,9 +16,10 @@ Time spent: **16** hours spent in total
   - [X] Steps to recreate: 
     1. Log in as Admin.
     2. Create an .jpg file with 
-    '''javascript 
+    ```javascript 
     <img src=a onerror=alert(document.cookie)> 
-    ''' in the file name. 
+    ```
+    in the file name. 
     3. Upload it into the media section.
     4. View attachment page. 
     5. Note: this also works for media filename 
@@ -35,9 +36,9 @@ Time spent: **16** hours spent in total
     - ![2](/gifs/2.gif?raw=true)
   - [X] Steps to recreate:
     1. As admin, write in the comment 
-    '''html
+    ```html
     <a href = "XSS" onmouseover=alert(1) rel="nofollow">CLICK ME!</a>
-    '''
+    ```
     2. Hover over the link. 
   - [X] Affected source code:
     - [Vulnerability DB](https://wpvulndb.com/vulnerabilities/8186)
@@ -53,9 +54,9 @@ Time spent: **16** hours spent in total
   - [X] Steps to recreate: 
     1. As admin, edit a page.
     2. Insert the following 
-    '''html
+    ```html
     [embed src='https://youtube.com/embed/1234\x3csvg onload=alert(1)\x3e'][/embed]
-    '''
+    ```
     3. Go to view the page.  
   - [X] Affected source code:
     - [Vulnerability DB](https://wpvulndb.com/vulnerabilities/8768)
@@ -70,9 +71,9 @@ Time spent: **16** hours spent in total
     - ![5](/gifs/5.gif?raw=true)
   - [X] Steps to recreate: 
     1. Upload User Comments Containing XSS Attack
-    '''javascript
+    ```javascript
     POW<script>alert(1)</script>
-    '''
+    ```
   - [X] Affected source code:
     - [Vulnerability DB](https://wpvulndb.com/vulnerabilities/8358)
     - [Source Code](https://github.com/WordPress/WordPress/commit/7ab65139c6838910426567849c7abed723932b87)  
