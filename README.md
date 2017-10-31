@@ -68,7 +68,7 @@ Time spent: **16** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.4
   - [X] GIF Walkthrough: 
-    - ![5](/gifs/5.gif?raw=true)
+    - ![4](/gifs/4.gif?raw=true)
   - [X] Steps to recreate: 
     1. Upload User Comments Containing XSS Attack
     ```javascript
