@@ -15,7 +15,10 @@ Time spent: **16** hours spent in total
     - ![1](/gifs/1.gif?raw=true)
   - [X] Steps to recreate: 
     1. Log in as Admin.
-    2. Create an .jpg file with ''' <img src=a onerror=alert(document.cookie)> ''' in the file name. 
+    2. Create an .jpg file with 
+    '''javascript 
+    <img src=a onerror=alert(document.cookie)> 
+    ''' in the file name. 
     3. Upload it into the media section.
     4. View attachment page. 
     5. Note: this also works for media filename 
@@ -31,7 +34,10 @@ Time spent: **16** hours spent in total
   - [X] GIF Walkthrough:
     - ![2](/gifs/2.gif?raw=true)
   - [X] Steps to recreate:
-    1. As admin, write in the comment '''<a href = "XSS" onmouseover=alert(1) rel="nofollow">CLICK ME!</a>'''
+    1. As admin, write in the comment 
+    '''html
+    <a href = "XSS" onmouseover=alert(1) rel="nofollow">CLICK ME!</a>
+    '''
     2. Hover over the link. 
   - [X] Affected source code:
     - [Vulnerability DB](https://wpvulndb.com/vulnerabilities/8186)
@@ -46,7 +52,10 @@ Time spent: **16** hours spent in total
     - ![3](/gifs/3.gif?raw=true)
   - [X] Steps to recreate: 
     1. As admin, edit a page.
-    2. Insert the following '''[embed src='https://youtube.com/embed/1234\x3csvg onload=alert(1)\x3e'][/embed]'''
+    2. Insert the following 
+    '''html
+    [embed src='https://youtube.com/embed/1234\x3csvg onload=alert(1)\x3e'][/embed]
+    '''
     3. Go to view the page.  
   - [X] Affected source code:
     - [Vulnerability DB](https://wpvulndb.com/vulnerabilities/8768)
