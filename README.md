@@ -7,7 +7,7 @@ Time spent: **16** hours spent in total
 ## Pentesting Report
 
 1. Authenticated Stored XSS via Image Filename
-  - [X] Summary: .  
+  - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.6
@@ -15,7 +15,7 @@ Time spent: **16** hours spent in total
     - ![1](/gifs/1.gif?raw=true)
   - [X] Steps to recreate: 
     1. Log in as Admin.
-    2. Create an .jpg file with '''<img src=a onerror=alert(document.cookie)>''' in the file name. 
+    2. Create an .jpg file with ''' <img src=a onerror=alert(document.cookie)> ''' in the file name. 
     3. Upload it into the media section.
     4. View attachment page. 
     5. Note: this also works for media filename 
