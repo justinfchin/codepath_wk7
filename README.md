@@ -46,7 +46,7 @@ Time spent: **16** hours spent in total
     - ![3](/gifs/3.gif?raw=true)
   - [X] Steps to recreate: 
     1. As admin, edit a page.
-    2. Insert the following '''[embed src='https://youtube.com/embed/1234\x3csvg onload=alert(1)\x3e'][/embed]'
+    2. Insert the following '''[embed src='https://youtube.com/embed/1234\x3csvg onload=alert(1)\x3e'][/embed]'''
     3. Go to view the page.  
   - [X] Affected source code:
     - [Vulnerability DB](https://wpvulndb.com/vulnerabilities/8768)
